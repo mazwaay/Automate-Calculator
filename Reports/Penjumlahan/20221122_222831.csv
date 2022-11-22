@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Penjumlahan,,,,2022-11-22 22:28:35,2022-11-22 22:28:55,19.725s,PASSED
+,,,,,,,
+Test Cases/Penjumlahan,,,,2022-11-22 22:28:36,2022-11-22 22:28:55,19.230s,PASSED
+"startApplication(""Mobile App/Calculator.apk"", false)",,,,2022-11-22 22:28:36,2022-11-22 22:28:49,13.219s,PASSED
+"tap(findTestObject(""Calculator_Object/Button-7""), 0)",,,,2022-11-22 22:28:49,2022-11-22 22:28:51,1.688s,PASSED
+"tap(findTestObject(""Calculator_Object/Button_Plus""), 0)",,,,2022-11-22 22:28:51,2022-11-22 22:28:52,0.816s,PASSED
+"tap(findTestObject(""Calculator_Object/Button_9""), 0)",,,,2022-11-22 22:28:52,2022-11-22 22:28:53,0.833s,PASSED
+"tap(findTestObject(""Calculator_Object/Button_Equal""), 0)",,,,2022-11-22 22:28:53,2022-11-22 22:28:54,1.226s,PASSED
+"verifyElementText(findTestObject(""Calculator_Object/Result_Assert""), ""16"")",,,,2022-11-22 22:28:54,2022-11-22 22:28:54,0.343s,PASSED
+closeApplication(),,,,2022-11-22 22:28:54,2022-11-22 22:28:55,0.510s,PASSED

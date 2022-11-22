@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Penjumlahan" time="19.725" tests="1" failures="0" errors="0">
+   <testsuite name="Penjumlahan" tests="1" failures="0" errors="0" time="19.725" skipped="0" timestamp="2022-11-22 22:28:35" hostname="Mazway - DESKTOP-NTMPTGI.lan" id="Test Suites/Penjumlahan">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (Android SDK built for x86 - Android 10)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Mazway\\Documents\\QA Engineer\\Katalon Sample Project\\Automate-Calculator\\Reports\\20221122_222831\\Penjumlahan\\20221122_222831"/>
+         <property name="logFiles" value="C:\\Users\\Mazway\\Documents\\QA Engineer\\Katalon Sample Project\\Automate-Calculator\\Reports\\20221122_222831\\Penjumlahan\\20221122_222831\\appium.log, C:\\Users\\Mazway\\Documents\\QA Engineer\\Katalon Sample Project\\Automate-Calculator\\Reports\\20221122_222831\\Penjumlahan\\20221122_222831\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Mazway - DESKTOP-NTMPTGI.lan"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.5.2.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="Android SDK built for x86"/>
+         <property name="hostAddress" value="192.168.1.104"/>
+         <property name="deviceManufacturer" value="Google"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (Android SDK built for x86 - Android 10)"/>
+         <property name="deviceOSVersion" value="10"/>
+      </properties>
+      <testcase name="Test Cases/Penjumlahan" time="19.23" classname="Test Cases/Penjumlahan" status="PASSED">
+         <system-out><![CDATA[2022-11-22 22:28:36 - [TEST_CASE][PASSED] - Test Cases/Penjumlahan: Test Cases/Penjumlahan
+
+2022-11-22 22:28:36 - [TEST_STEP][PASSED] - startApplication("Mobile App/Calculator.apk", false): Started app at: 'C:\Users\Mazway\Documents\QA Engineer\Katalon Sample Project\Automate-Calculator\Mobile App\Calculator.apk'
+
+2022-11-22 22:28:37 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2022-11-22 22:28:39 - [MESSAGE][INFO] - Appium server started on port 51,801
+
+2022-11-22 22:28:49 - [MESSAGE][PASSED] - Started app at: 'C:\Users\Mazway\Documents\QA Engineer\Katalon Sample Project\Automate-Calculator\Mobile App\Calculator.apk'
+
+2022-11-22 22:28:49 - [TEST_STEP][PASSED] - tap(findTestObject("Calculator_Object/Button-7"), 0): Tapped on element 'Object Repository/Calculator_Object/Button-7'
+
+2022-11-22 22:28:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-22 22:28:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Calculator_Object/Button-7'
+
+2022-11-22 22:28:51 - [TEST_STEP][PASSED] - tap(findTestObject("Calculator_Object/Button_Plus"), 0): Tapped on element 'Object Repository/Calculator_Object/Button_Plus'
+
+2022-11-22 22:28:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-22 22:28:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Calculator_Object/Button_Plus'
+
+2022-11-22 22:28:52 - [TEST_STEP][PASSED] - tap(findTestObject("Calculator_Object/Button_9"), 0): Tapped on element 'Object Repository/Calculator_Object/Button_9'
+
+2022-11-22 22:28:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-22 22:28:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Calculator_Object/Button_9'
+
+2022-11-22 22:28:53 - [TEST_STEP][PASSED] - tap(findTestObject("Calculator_Object/Button_Equal"), 0): Tapped on element 'Object Repository/Calculator_Object/Button_Equal'
+
+2022-11-22 22:28:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-22 22:28:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Calculator_Object/Button_Equal'
+
+2022-11-22 22:28:54 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Calculator_Object/Result_Assert"), "16"): Actual text and expected text of test object 'Object Repository/Calculator_Object/Result_Assert' are matched.
+
+2022-11-22 22:28:54 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Calculator_Object/Result_Assert' are matched.
+
+2022-11-22 22:28:54 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2022-11-22 22:28:55 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-11-22 22:28:35 - [TEST_SUITE][PASSED] - Penjumlahan: Test Cases/Penjumlahan]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
